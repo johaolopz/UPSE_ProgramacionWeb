@@ -1,0 +1,24 @@
+a {
+	text-decoration: none;
+	color:white;
+}
+#wrapper {
+	max-width:940px;
+	margin:0 auto;
+	padding: 0 5%;
+	background: gray;
+}
+
+#logo{
+	text-align:center;
+	margin:0;
+}
+
+header{
+background: #9FA838;
+border-color: #599a68;
+}
+
+h1, h2 {
+	color: #F5FBA8;
+}
