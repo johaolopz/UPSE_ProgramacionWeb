@@ -1,3 +1,7 @@
+/********************
+GENERAL
+********************/
+
 a {
 	text-decoration: none;
 	color:white;
@@ -9,6 +13,10 @@ a {
 	background: gray;
 }
 
+/*******************
+HEADING
+*******************/
+
 #logo{
 	text-align:center;
 	margin:0;
@@ -19,6 +27,34 @@ background: #9FA838;
 border-color: #599a68;
 }
 
-h1, h2 {
+h1{
+	font-family: 'Bangers', cursive;
+	margin:15px 0; /*margen de arriba y abajo 15px y a los lados sin margen*/
+	font-size: 3em;
+	font-weight: normal;
+	line-height: 0.8em;
 	color: #F5FBA8;
 }
+
+h2 {
+	font-size: 1.5em;
+	margin: -5px 0 0;
+	color: #F5FBA8;
+	font-weight: none;
+}
+
+/*******************
+NAVIGATION
+*******************/
+
+nav a.selected {
+	color:#554200;
+}
+
+nav a:hover{
+	color: white;
+};
+
+/*******************
+FOOTER
+*******************/
