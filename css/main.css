@@ -111,5 +111,12 @@ footer{
 	font-size: 0.75em;
 	text-align: center;
 	padding-top: 50px;
-	color:#47C540;
+	color:#515150;
+}
+
+footer a img.social-icon
+{
+	width:30px;
+	height: 30px;
+	margin:0 5px;
 }
