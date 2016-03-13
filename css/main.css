@@ -91,7 +91,7 @@ nav a.selected {
 }
 
 nav a:hover{
-	color: white;
+	color: #5AA053;
 }
 
 nav ul {
@@ -131,6 +131,46 @@ tag SECTION
 .profile-photo{
 	display:block;
 	max-width: 400px;
+	margin:0 auto 30px;
+	border-radius:100%;
+}
+
+/*******************
+PAGINA CONTACT
+tag SECTION
+*******************/
+
+.contact-info li.phone a{
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a{
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a{
+	background-image: url('../img/twitter.png');
+}
+
+.contact-info{
+	list-style: none;
+	padding:0;
+	margin:0;
+	font-size: 0.9em;
+}
+
+.contact-info a{
+	display:block;
+	min-height:20px;
+	background-repeat:no-repeat;
+	background-size: 20px 20px;
+	padding:0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-photo{
+	display:block;
+	max-width: 250px;
 	margin:0 auto 30px;
 	border-radius:100%;
 }
