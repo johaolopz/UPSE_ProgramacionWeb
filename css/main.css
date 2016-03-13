@@ -33,14 +33,39 @@ h1{
 	font-size: 3em;
 	font-weight: normal;
 	line-height: 0.8em;
-	color: #F5FBA8;
+	color: #4A0072;
 }
 
 h2 {
 	font-size: 1.5em;
 	margin: -5px 0 0;
-	color: #F5FBA8;
+	color: #4A0072;
 	font-weight: none;
+}
+
+img {
+max-width: 100%;
+}
+
+#galeria {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+#galeria li{
+	float:left;
+	width:45%;
+	margin:2.5%;
+	background-color: #003E6E ;
+	color: red;
+}
+
+#galeria li a p {
+	margin:0;
+	padding:5%;
+	font-size: 1.75em;
+	color:orange;
 }
 
 /*******************
