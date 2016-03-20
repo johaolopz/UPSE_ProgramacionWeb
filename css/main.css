@@ -11,7 +11,7 @@ a {
 	color:white;
 }
 #wrapper {
-	max-width:400px;
+	max-width:940px;
 	margin:0 auto;
 	padding: 0 10%;
 	background: #7698E6;
@@ -174,7 +174,7 @@ tag SECTION
 
 .contact-photo{
 	display:block;
-	max-width: 250px;
+	max-width: 150px;
 	margin:0 auto 30px;
 	border-radius:100%;
 }
