@@ -31,7 +31,7 @@ al 3n+1 salte a la siguiente linea*/
 		float:left;
 		margin: 0 5% 120px 0;
 	}
-}
+
 
 @media screen and (min-width: 660px)
 {
@@ -42,5 +42,25 @@ al 3n+1 salte a la siguiente linea*/
 		margin-right: 5%;
 		text-align: right;
 		width:100%;
-	}	
+	}
+
+
+/*Ajustar el encabezado en pantalla de 660px (PC)
+Alinearlo a la izquierda*/
+		#logo{
+		float:left;
+		margin-left: 5%;
+		text-align: left;
+		width:45%;
+	}
+	h1 {font-size: 1.5em;}	
+
+	h2 {font-size: 0.825em;
+		margin-bottom: 20px;}
+
+	header
+	{
+		border-bottom: 5px solid gray;
+		margin-bottom: 60px;
+	}
 }
